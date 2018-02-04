@@ -1,6 +1,6 @@
 # Elevator Pitch
 
-In 2018, there's really no need for jQuery, however, jQuery came bundled with a few really nice features. One such feature is their event binding and unbinding mechanism.
+In 2018, there's really no need for jQuery, however, jQuery came bundled with a few really nice features. One such feature is their namespaced event binding and unbinding mechanism.
 
 ```javascript
 const $my_element = $("#root")
