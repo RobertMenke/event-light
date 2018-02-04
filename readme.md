@@ -37,3 +37,9 @@ off("click.listener_one", element)
 element.click()
 //Number two!
 ```
+
+# Installation
+
+```
+npm install --save event-light
+```
