@@ -1,0 +1,32 @@
+{
+  "name": "event-light",
+  "version": "1.0.0",
+  "description": "jQuery-like event handling using WeakMap without the bloat of jQuery",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "webpack": "webpack --progress --watch"
+  },
+  "keywords": [
+    "event-handling",
+    "events",
+    "DOM",
+    "javascript"
+  ],
+  "author": "Robert Menke",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-jest": "^22.1.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "jest": "^22.1.4",
+    "regenerator-runtime": "^0.11.1",
+    "webpack": "^3.10.0"
+  },
+  "jest": {
+    "browser": true
+  }
+}
