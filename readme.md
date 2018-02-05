@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/RobertMenke/event-light.svg?style=svg)](https://circleci.com/gh/RobertMenke/event-light)
+
 # Elevator Pitch
 
 In 2018, there's really no need for jQuery, however, jQuery came bundled with a few really nice features. One such feature is their namespaced event binding and unbinding mechanism.
