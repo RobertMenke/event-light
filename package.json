@@ -1,6 +1,6 @@
 {
   "name": "event-light",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "jQuery-like event handling using WeakMap without the bloat of jQuery",
   "main": "dist/index.js",
   "repository": "https://github.com/RobertMenke/event-light",

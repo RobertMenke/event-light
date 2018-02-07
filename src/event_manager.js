@@ -127,6 +127,6 @@ function parseEventType(type : string) : ParsedEvent {
     const split = type.split(".")
     return {
         event     : split[ 0 ],
-        identifier: split.slice(1).join("") || "_"
+        identifier: split.slice(1).join(".") || "_"
     }
 }

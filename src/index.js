@@ -8,7 +8,7 @@ export const on = (event_name : string, element : HTMLElement, listener : (Event
     }
 
     if(!(element instanceof HTMLElement)) {
-        throw new TypeError("Error calling event-light's on method. Elements must instances of HTMLElement.")
+        throw new TypeError("Error calling event-light's on method. Elements must be instances of HTMLElement.")
     }
 
     if(typeof listener !== "function") {
@@ -25,7 +25,7 @@ export const off = (event_name : string, element : HTMLElement) : HTMLElement =>
     }
 
     if(!(element instanceof HTMLElement)) {
-        throw new TypeError("Error calling event-light's on method. Elements must instances of HTMLElement.")
+        throw new TypeError("Error calling event-light's on method. Elements must be instances of HTMLElement.")
     }
 
     removeEvent(event_name, element)
